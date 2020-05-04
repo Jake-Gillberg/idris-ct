@@ -38,6 +38,7 @@ modules
   , CoLimits.CoLimit
   , CoLimits.CoLimitAsInitialObject
   , CoLimits.CoProduct
+  , CoLimits.FiniteCoProduct
   , CoLimits.InitialObject
   , CoLimits.InitialObjectAsCoLimit
   , CoLimits.Pushout
@@ -63,9 +64,12 @@ modules
   , Idris.PairAsProduct
   , Idris.TypesAsCategory
   , Idris.TypesAsCategoryExtensional
+  , Idris.UnitAsTerminalObject
   , Lens.Lens
   , Lens.SimpleLens
+  , Limits.FiniteProduct
   , Limits.Limit
+  , Limits.Product
   , Limits.Pullback
   , Limits.TerminalObject
   , Monad.IOMonad
@@ -77,6 +81,7 @@ modules
   , Monoid.MonoidMorphism
   , Monoid.MonoidMorphismAsFunctor
   , Monoid.MonoidsCategory
+  , MonoidalCategory.CartesianCategory
   , MonoidalCategory.MonoidalCategory
   , MonoidalCategory.MonoidalCategoryHelpers
   , MonoidalCategory.MonoidalFunctor
